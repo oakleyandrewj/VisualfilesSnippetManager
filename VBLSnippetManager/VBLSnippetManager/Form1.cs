@@ -16,6 +16,8 @@ namespace VBLSnippetManager
     public partial class Form1 : Form
     {
         string _filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
+        List<string> _itemList;
+
         public Form1()
         {
             InitializeComponent();
@@ -46,7 +48,7 @@ namespace VBLSnippetManager
                 //txtEditor.Text += firstName + lastName;
                 listBoxSnippets.Items.Add(title);
             }
-
+            _itemList = listBoxSnippets.Items.Cast<string>().ToList();
         }
 
         private void listBoxSnippets_SelectedIndexChanged(object sender, EventArgs e)
@@ -101,6 +103,20 @@ namespace VBLSnippetManager
             y.Element("snippets").Add(contacts);
             y.Save(_filePath + "\\snippets.xml");
             LoadSnippetsFromXmlFile();
+        }
+
+        private void txtFilter_TextChanged(object sender, EventArgs e)
+        {
+            //var itemList = listBoxSnippets.Items.Cast<string>().ToList();
+            if (_itemList.Count > 0)
+            {
+                //clear the items from the list
+                listBoxSnippets.Items.Clear();
+
+                //filter the items and add them to the list
+                listBoxSnippets.Items.AddRange(
+                    _itemList.Where(i => i.Contains(txtFilter.Text)).ToArray());
+            }
         }
     }
 }
