@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<snippets>
+  <snippet>
+    <title>If statement</title>
+    <description>An If Else Endif Block</description>
+  <content>[*If LF01 = "Yes"]
+  [*Else]
+  [*Endif]</content>
+  </snippet>
+  <snippet>
+    <title>DoWhile statement</title>
+    <description>A loop for while block</description>
+  <content>[*DoWhile LF01 = "Yes"]
+  [*EndDoWhile]</content>
+  </snippet>
+  <snippet>
+    <title>Foreach</title>
+    <description>A Foreach Code Block</description>
+  <content>[*Foreach ABCD, ABC01 = "Yes", noincludeall]
+  [*Endfor]</content>
+  </snippet>
+</snippets>

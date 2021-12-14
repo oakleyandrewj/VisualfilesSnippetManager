@@ -1,0 +1,10 @@
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\bin\Debug\VBLSnippetManager.exe.config
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\bin\Debug\VBLSnippetManager.exe
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\bin\Debug\VBLSnippetManager.pdb
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.csprojAssemblyReference.cache
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.Form1.resources
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.Properties.Resources.resources
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.csproj.GenerateResource.cache
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.csproj.CoreCompileInputs.cache
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.exe
+C:\Users\Oakley\Source\repos\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.pdb
