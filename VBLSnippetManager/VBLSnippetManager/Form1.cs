@@ -85,23 +85,12 @@ namespace VBLSnippetManager
 
         private void btnAddSnippet_Click(object sender, EventArgs e)
         {
-            XmlDocument doc3 = new XmlDocument();
-            var contents = "";
-            using (StreamReader streamReader = new StreamReader(_filePath + "\\snippets.xml", Encoding.UTF8))
-            {
-                contents = streamReader.ReadToEnd();
-            }
-            doc3.LoadXml(contents);
-            XElement contacts =
-            new XElement("snippet",
-                new XElement("title", "Sample Title"),
-                new XElement("description", "Sample Description"),
-                new XElement("content","Sample Code Content"));
 
-            XDocument y = XDocument.Parse(doc3.OuterXml);
+            //call new form and passback values
+            Form_New entryForm = new Form_New();
+            //clear form content
+            entryForm.ShowDialog();
 
-            y.Element("snippets").Add(contacts);
-            y.Save(_filePath + "\\snippets.xml");
             LoadSnippetsFromXmlFile();
         }
 

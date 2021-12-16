@@ -30,8 +30,18 @@
     <content>Sample Code Content</content>
   </snippet>
   <snippet>
-    <title>Sample Title</title>
-    <description>Sample Description</description>
-    <content>Sample Code Content</content>
+    <title>test</title>
+    <description>test Description</description>
+    <content>sample test</content>
+  </snippet>
+  <snippet>
+    <title>new snippet</title>
+    <description>descriptioney</description>
+    <content>here is the snippet &amp;&amp;&amp;</content>
+  </snippet>
+  <snippet>
+    <title>test 2</title>
+    <description>mytest</description>
+    <content>sample content</content>
   </snippet>
 </snippets>

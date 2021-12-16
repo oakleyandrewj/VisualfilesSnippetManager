@@ -19,3 +19,4 @@ C:\Users\Oakley\Source\Repos\VisualfilesSnippetManager\VBLSnippetManager\VBLSnip
 C:\Users\Oakley\Source\Repos\VisualfilesSnippetManager\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.exe
 C:\Users\Oakley\Source\Repos\VisualfilesSnippetManager\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.pdb
 C:\Users\Oakley\Source\Repos\VisualfilesSnippetManager\VBLSnippetManager\VBLSnippetManager\bin\Debug\snippets.xml
+C:\Users\Oakley\Source\Repos\VisualfilesSnippetManager\VBLSnippetManager\VBLSnippetManager\obj\Debug\VBLSnippetManager.Form_New.resources

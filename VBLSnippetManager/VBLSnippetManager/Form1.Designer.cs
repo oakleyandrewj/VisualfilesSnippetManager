@@ -52,7 +52,7 @@
             this.tableLayoutPanel_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.29889F));
             this.tableLayoutPanel_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.70111F));
             this.tableLayoutPanel_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
-            this.tableLayoutPanel_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
             this.tableLayoutPanel_Main.Controls.Add(this.listBoxSnippets, 0, 2);
             this.tableLayoutPanel_Main.Controls.Add(this.btnAddSnippet, 0, 3);
             this.tableLayoutPanel_Main.Controls.Add(this.tableLayoutPanel1, 1, 2);
@@ -103,7 +103,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.82621F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.17379F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(757, 341);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(756, 341);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // tableLayoutPanel2
@@ -122,7 +122,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(751, 30);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(750, 30);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // label2
@@ -158,7 +158,7 @@
             this.txtDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtDescription.Location = new System.Drawing.Point(329, 3);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(419, 20);
+            this.txtDescription.Size = new System.Drawing.Size(418, 20);
             this.txtDescription.TabIndex = 3;
             // 
             // txtEditor
@@ -167,7 +167,7 @@
             this.txtEditor.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEditor.Location = new System.Drawing.Point(3, 39);
             this.txtEditor.Name = "txtEditor";
-            this.txtEditor.Size = new System.Drawing.Size(751, 299);
+            this.txtEditor.Size = new System.Drawing.Size(750, 299);
             this.txtEditor.TabIndex = 1;
             this.txtEditor.Text = "";
             this.txtEditor.WordWrap = false;
@@ -175,7 +175,7 @@
             // btnCopyClipboard
             // 
             this.btnCopyClipboard.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnCopyClipboard.Location = new System.Drawing.Point(903, 331);
+            this.btnCopyClipboard.Location = new System.Drawing.Point(902, 331);
             this.btnCopyClipboard.Name = "btnCopyClipboard";
             this.btnCopyClipboard.Size = new System.Drawing.Size(61, 62);
             this.btnCopyClipboard.TabIndex = 4;
